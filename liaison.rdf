@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+
+
+
+	<Feature rdf:about="http://rdf.insee.fr/geo/2011/COM_34172">
+		<owl:sameAs rdf:resource="http://www.lirmm.fr/ely/34172" />
+	</Feature>
+	<Feature rdf:about="http://rdf.insee.fr/geo/2011/COM_75056">
+		<owl:sameAs rdf:resource="http://www.lirmm.fr/ely/75056" />
+	</Feature>
+	<Feature rdf:about="http://rdf.insee.fr/geo/2011/COM_13055">
+		<owl:sameAs rdf:resource="http://www.lirmm.fr/ely/13055" />
+	</Feature>
+
+
+
+	<Feature rdf:about="http://www.lirmm.fr/ely/34172">
+		<owl:sameAs rdf:resource="http://www.ely.fr#Montpellier"/>
+	</Feature>
+
+	<Feature rdf:about="http://www.lirmm.fr/ely/75056">
+		<owl:sameAs rdf:resource="http://www.ely.fr#Paris"/>
+	</Feature>
+
+	<Feature rdf:about="http://www.lirmm.fr/ely/13055">
+		<owl:sameAs rdf:resource="http://www.ely.fr#Marseille"/>
+	</Feature>
+	
+
+
+
+     	<Feature rdf:about="http://www.ely.fr#PSG">
+		<owl:sameAs rdf:resource="http://www.sportsfoot.fr#PSG"/>
+	</Feature>
+		<Feature rdf:about="http://www.ely.fr#OM">
+		<owl:sameAs rdf:resource="http://www.sportsfoot.fr#OM"/>
+	</Feature>
+		<Feature rdf:about="http://www.ely.fr#MSCH">
+		<owl:sameAs rdf:resource="http://www.sportsfoot.fr#MSCH"/>
+	</Feature>
+	
+	
+	
+
+
+	
+</rdf:RDF>

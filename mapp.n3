@@ -1,0 +1,45 @@
+@prefix map: <file:mapp.n3#> .
+@prefix db: <> .
+@prefix v: <http://www.lirmm.fr/ely/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+
+
+map:database a d2rq:Database;
+
+	d2rq:jdbcDSN "jdbc:mysql://localhost/based2rq";
+	d2rq:jdbcDriver "com.mysql.jdbc.Driver";
+	d2rq:username "root";
+	d2rq:password "elymalick";
+	.
+
+
+
+# Table ARRONDISSEMENT
+
+map:CODECOMMUNEA a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "http://www.lirmm.fr/ely/@@arrondissement_municipal.codeCommune@@";
+	.
+
+
+
+map:Arrondissement_municipal_R a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:CODECOMMUNEA;
+	d2rq:property v:narm;
+	d2rq:uriPattern "http://www.lirmm.fr/ely/@@arrondissement_municipal.narm@@";
+	.
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+

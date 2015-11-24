@@ -1,0 +1,129 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sports="http://www.sportsfoot.fr#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#Louis Achard">
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#joueur"/>
+    <sports:age>30</sports:age>
+    <foaf:name>Louis Achard</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#PSG">
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#tiago"/>
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#pastorie"/>
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#cavani"/>
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#menez"/>
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#zalatan"/>
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#equipe"/>
+    <dc:title>PSG</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#MSCH">
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#Christian Andr�"/>
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#Bruno Alicarte"/>
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#Romain Armand"/>
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#kamara"/>
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#kaoutari"/>
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#equipe"/>
+    <dc:title>MSCH</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#Klaus Allofs">
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#joueur"/>
+    <sports:age>20</sports:age>
+    <foaf:name>Klaus Allofs</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#Roberto Alarcon">
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#joueur"/>
+    <sports:age>34</sports:age>
+    <foaf:name>Roberto Alarcon</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#Romain Armand">
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#joueur"/>
+    <sports:age>34</sports:age>
+    <foaf:name>Romain Armand</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#joueur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</foaf:name>
+    <sports:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</sports:age>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#kamara">
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#joueur"/>
+    <sports:age>22</sports:age>
+    <foaf:name>kamara</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#zalatan">
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#joueur"/>
+    <sports:age>29</sports:age>
+    <foaf:name>zalatan</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#Joseph Alcazar">
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#joueur"/>
+    <sports:age>19</sports:age>
+    <foaf:name>Joseph Alcazar</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#menez">
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#joueur"/>
+    <sports:age>20</sports:age>
+    <foaf:name>menez</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#kaoutari">
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#joueur"/>
+    <sports:age>29</sports:age>
+    <foaf:name>kaoutari</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#Christian Andr�">
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#joueur"/>
+    <sports:age>20</sports:age>
+    <foaf:name>Christian Andr�</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#equipe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</dc:title>
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#joueur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#pastorie">
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#joueur"/>
+    <sports:age>23 ans</sports:age>
+    <foaf:name>pastorie</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#Kanga Akal�">
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#joueur"/>
+    <sports:age>29</sports:age>
+    <foaf:name>Kanga Akal�</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#Bruno Alicarte">
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#joueur"/>
+    <sports:age>19</sports:age>
+    <foaf:name>Bruno Alicarte</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#tiago">
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#joueur"/>
+    <sports:age>26 ans</sports:age>
+    <foaf:name>tiago</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#ligue">
+    <sports:participe rdf:resource="http://www.sportsfoot.fr#OM"/>
+    <sports:participe rdf:resource="http://www.sportsfoot.fr#MSCH"/>
+    <sports:participe rdf:resource="http://www.sportsfoot.fr#PSG"/>
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#ligue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <sports:participe rdf:resource="http://www.sportsfoot.fr#equipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#OM">
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#Klaus Allofs"/>
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#Joseph Alcazar"/>
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#Roberto Alarcon"/>
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#Louis Achard"/>
+    <sports:joueurs rdf:resource="http://www.sportsfoot.fr#Kanga Akal�"/>
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#equipe"/>
+    <dc:title>OM</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.sportsfoot.fr#cavani">
+    <rdf:type rdf:resource="http://www.sportsfoot.fr#joueur"/>
+    <sports:age>22 ans</sports:age>
+    <foaf:name>cavani</foaf:name>
+  </rdf:Description>
+</rdf:RDF>
